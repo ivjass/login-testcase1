@@ -4,8 +4,8 @@ describe('Register and Login Test', () => {
       cy.contains('Register').click();
       cy.get('[name="customer.firstName"]').type('Jasdeep');
       cy.get('[name="customer.lastName"]').type('Singh');
-      cy.get('[name="customer.address.street"]').type('123 Main Street');
-      cy.get('[name="customer.address.city"]').type('New York');
+      cy.get('[name="customer.address.street"]').type('123 St. Catherine Street');
+      cy.get('[name="customer.address.city"]').type('Montreal');
       cy.get('[name="customer.address.state"]').type('NY');
       cy.get('[name="customer.address.zipCode"]').type('10001');
       cy.get('[name="customer.phoneNumber"]').type('1234567890');
